@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap"
+      rel="stylesheet"
+    />
+    <title>KYUNGTOLAND</title>
+    <style>
+      a {
+        display: inline-block;
+        width: 50px;
+        text-decoration: none;
+        color: black;
+        background-color: white;
+      }
+      a:hover {
+        color: palevioletred;
+      }
+
+      nav {
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+        width: 1200px;
+        padding: 10px;
+        border: 1px solid black;
+        font-family: "Architects Daughter", cursive;
+        font-size: x-large;
+        /* position: fixed; */
+      }
+      card-container {
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+        width: 1200px;
+        height: 530px;
+        background-color: white;
+      }
+      card-page {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        height: 100%;
+        overflow: hidden;
+        margin-bottom: 200px;
+        font-size: 1.5em;
+        font-family: "Architects Daughter", cursive;
+        border-radius: 15px;
+      }
+      .card {
+        display: flex;
+        margin: 10px auto;
+        border-radius: 15px;
+        overflow: hidden;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+        width: 1200px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h3>WELCOME TO KYUNGTO HOMEPAGE!!</h3>
+      <a href="#page-1">ME</a>
+      <a href="#page-2">FAVORITES</a>
+    </nav>
+    <card-container>
+      <card-page id="page-1">
+        <img src="img/street.jpg" />
+        안녕하세요. WECODE 17기 박경토입니다. 코딩에 흥미가 생겨서 개인적으로
+        공부하다가 제대로 배워보고 싶어서 WECODE에 왔습니다. 프론트엔드에 관심이
+        있는데 어렵네요~
+      </card-page>
+      <card-page id="page-2">
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="img/탄식의다리.jpg"
+            alt="Card image cap"
+          />
+        </div>
+        <div class="card" style="width: 18rem">
+          <img class="card-img-top" src="img/book.jpg" alt="Card image cap" />
+        </div>
+        <div class="card" style="width: 18rem">
+          <img class="card-img-top" src="img/cafe2.jpg" alt="Card image cap" />
+        </div>
+        <div class="card" style="width: 18rem">
+          <img class="card-img-top" src="img/gelato.jpg" alt="Card image cap" />
+        </div>
+        <div class="card" style="width: 18rem">
+          <img class="card-img-top" src="img/shoes.jpg" alt="Card image cap" />
+        </div>
+      </card-page>
+    </card-container>
+  </body>
+</html>
